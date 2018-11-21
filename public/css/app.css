@@ -10471,6 +10471,10 @@ a.text-dark:focus {
   }
 }
 
+h1 {
+  font-weight: 300;
+}
+
 header > .container-fluid {
   background-image: url(../images/bg.jpeg?41cf4fe93a3587be42e55e1e84739ab3);
   min-height: 450px;
