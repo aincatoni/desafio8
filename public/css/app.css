@@ -10480,3 +10480,16 @@ header > .container-fluid {
           box-sizing: border-box;
 }
 
+.pie-pagina {
+  background-color: #000;
+  color: #FFF;
+  min-height: 4rem;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pie-pagina h4 {
+  margin: 0;
+}
+
