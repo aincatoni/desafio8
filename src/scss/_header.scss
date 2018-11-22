@@ -1,4 +1,4 @@
-header > .container-fluid {
+/*header > .container-fluid {
 		background-image: url(../img/bg.jpeg);
 		min-height: 450px;
 		background-position: 0 60%;
@@ -6,9 +6,22 @@ header > .container-fluid {
 		box-sizing: border-box;
 
 	}
+*/
+#cabecera {
+	position:relative;
+}
 
+.diapo {
 
+	position: absolute;
+    top: 0;
+    left: 0;
+    height:420px;
+    overflow: hidden;
 
+  
+
+}
 nav {
 
 
