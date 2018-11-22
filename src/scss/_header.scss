@@ -18,6 +18,8 @@
     left: 0;
     height:420px;
     overflow: hidden;
+    z-index: -4;
+    padding:0;
 
 
 
@@ -27,3 +29,6 @@ header img {
 	object-fit: cover;
 }
 
+.cpt-md {
+	top:5%;
+}

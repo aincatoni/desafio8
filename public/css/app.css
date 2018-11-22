@@ -10479,6 +10479,10 @@ h1 {
   padding: 2rem;
 }
 
+.cnt-prncp {
+  margin-top: 400px;
+}
+
 /*header > .container-fluid {
 		background-image: url(../img/bg.jpeg);
 		min-height: 450px;
@@ -10499,6 +10503,17 @@ h1 {
   left: 0;
   height: 420px;
   overflow: hidden;
+  z-index: -4;
+  padding: 0;
+}
+
+header img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cpt-md {
+  top: 5%;
 }
 
 .pie-pagina {
