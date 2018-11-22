@@ -10493,23 +10493,36 @@ h1 {
 	}
 */
 
-#cabecera {
-  position: relative;
-}
+/*.diapo {
 
-.diapo {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height:420px;
+    overflow: hidden;
+    z-index: -4;
+    padding:0;
+
+
+}
+*/
+
+.my-nav {
   position: absolute;
   top: 0;
-  left: 0;
-  height: 420px;
-  overflow: hidden;
-  z-index: -4;
-  padding: 0;
+  width: 100%;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  z-index: 999;
 }
 
-header img {
-  -o-object-fit: cover;
-     object-fit: cover;
+.my-carousel {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 450px;
 }
 
 .cpt-md {
